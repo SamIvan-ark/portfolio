@@ -14,10 +14,10 @@ function App() {
       <Navbar />
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/project/:projectId" element={<Project />} />
-        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/portfolio" element={<Home />} />
+        <Route path="/portfolio/projects" element={<Projects />} />
+        <Route path="/portfolio/project/:projectId" element={<Project />} />
+        <Route path="/portfolio/contacts" element={<Contacts />} />
         <Route path="*" element={<h1 style={{ textAlign: 'center', fontSize: '100px' }}>404</h1>} />
       </Routes>
 
