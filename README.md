@@ -1,4 +1,5 @@
 <font size="3">SPA frontend developer portfolio of</font>
+
 <font size="6">Ivan Samozhenov</font>
 ---
 Made with `create-react-app`
